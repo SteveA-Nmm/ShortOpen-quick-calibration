@@ -1,2 +1,3 @@
 # ShortOpen-quick-calibration
 VSWR calibrate mulitple bands instead of one at a time
+The 8757D Scalar has only 4 registers that save calibration data. All 9 save instrument state. Current usage model on the production line uses all available calibration registers. This application will calibrate three different bands by recalling a pre-defined instrument state register 1-9. The application saves the calibration data offline as well as in the registers 1-4 if appropriate. If all available state registers are taken the offline data is still available to be written "OM" back to instrument memory. This app will incorporate the exiting vswr final data app.
