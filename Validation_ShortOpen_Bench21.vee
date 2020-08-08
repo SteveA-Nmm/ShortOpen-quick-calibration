@@ -1,0 +1,2311 @@
+(saveFormat "7.0")
+(date "Sat 08/Aug/2020 07:41:16 ")
+(veerev "9.32.17704.1")
+(platform "PC")
+(execMode v6)
+(prefExecMode v9)
+(filterNAN 0)
+(workspaceStackingOrder M.36 M M.31)
+(sysconfig
+(iodevice "newInstrument"
+(type GPIB-VISA)
+(channel 130)
+(readTerm "\n")
+(fs ",")
+(eol "\n")
+(multiField dataOnly)
+(arrayFormat linear)
+(timeout 5)
+(byteOrder 0)
+(ppAddr "GPIB0::16::INSTR")
+(model "")
+(eoiEnabled 1)
+(VISAddr "GPIB0::16::INSTR")
+(model ""
+(standard 488)))
+(iodevice "newInstrument2"
+(type GPIB-VISA)
+(channel 130)
+(readTerm "\n")
+(fs ",")
+(eol "\n")
+(multiField dataOnly)
+(arrayFormat linear)
+(timeout 5)
+(byteOrder 0)
+(ppAddr "GPIB0::17::INSTR")
+(model "")
+(eoiEnabled 1)
+(VISAddr "GPIB0::17::INSTR")
+(model ""
+(standard 488)))
+(iodevice "scope"
+(type GPIB-VISA)
+(channel 0)
+(readTerm "\n")
+(fs ",")
+(eol "\n")
+(multiField dataOnly)
+(arrayFormat linear)
+(timeout 5)
+(byteOrder 0)
+(isLive 0)
+(idFileName "hp54504a.cid")
+(ppAddr "")
+(model "")
+(eoiEnabled 1)
+(model ""
+(standard 488)))
+(iodevice "fgeg"
+(type GPIB-VISA)
+(channel 0)
+(readTerm "\n")
+(fs ",")
+(eol "\n")
+(multiField dataOnly)
+(arrayFormat linear)
+(timeout 5)
+(byteOrder 0)
+(isLive 0)
+(idFileName "hp3325b.cid")
+(ppAddr "")
+(model "")
+(eoiEnabled 1)
+(model ""
+(standard 488)))
+(iodevice "newInstrument3"
+(type GPIB-VISA)
+(channel 0)
+(readTerm "\n")
+(fs ",")
+(eol "\n")
+(multiField dataOnly)
+(arrayFormat linear)
+(timeout 5)
+(byteOrder 0)
+(isLive 0)
+(ppAddr "")
+(model "")
+(eoiEnabled 1)
+(model ""
+(standard 488)))
+(iodevice "Hp871xC"
+(type GPIB-VISA)
+(channel 0)
+(readTerm "\n")
+(fs ",")
+(eol "\n")
+(multiField dataOnly)
+(arrayFormat linear)
+(timeout 5)
+(byteOrder 0)
+(isLive 0)
+(ppAddr "")
+(model "")
+(eoiEnabled 1)
+(model ""
+(standard 488)))
+(iodevice "whatsitcalled"
+(type GPIB-VISA)
+(channel 0)
+(readTerm "\n")
+(fs ",")
+(eol "\n")
+(multiField dataOnly)
+(arrayFormat linear)
+(timeout 5)
+(byteOrder 0)
+(isLive 0)
+(idFileName "hp83640a.cid")
+(ppAddr "")
+(model "")
+(eoiEnabled 1)
+(model ""
+(standard 488)))
+(iodevice "nwa"
+(type GPIB-VISA)
+(channel 0)
+(readTerm "\n")
+(fs ",")
+(eol "\n")
+(multiField dataOnly)
+(arrayFormat linear)
+(timeout 5)
+(byteOrder 0)
+(isLive 0)
+(ppAddr "")
+(model "")
+(eoiEnabled 1)
+(model ""
+(standard 488)))
+(iodevice "Gain_Reg1_N12_3541"
+(type GPIB-VISA)
+(channel 130)
+(readTerm "\n")
+(fs ",")
+(eol "\n")
+(multiField dataOnly)
+(arrayFormat linear)
+(timeout 5)
+(byteOrder 0)
+(ppAddr "GPIB0::16::INSTR")
+(model "")
+(eoiEnabled 1)
+(VISAddr "GPIB0::16::INSTR")
+(model ""
+(standard 488)))
+(iodevice "NFmeter"
+(type GPIB-VISA)
+(channel 0)
+(readTerm "\n")
+(fs ",")
+(eol "\n")
+(multiField dataOnly)
+(arrayFormat linear)
+(timeout 5)
+(byteOrder 0)
+(isLive 0)
+(ppAddr "")
+(model "")
+(eoiEnabled 1)
+(model ""
+(standard 488)))
+(iodevice "SAP_Reg_1"
+(type GPIB-VISA)
+(channel 130)
+(readTerm "\n")
+(fs ",")
+(eol "\n")
+(multiField dataOnly)
+(arrayFormat linear)
+(timeout 5)
+(byteOrder 0)
+(idFileName "hp8757d6.cid")
+(ppAddr "GPIB0::16::INSTR")
+(model "")
+(eoiEnabled 1)
+(VISAddr "GPIB0::16::INSTR")
+(model ""
+(standard 488)
+(state
+(upload "OL")
+(download "IL"))))
+(iodevice "PowerSupply_E3631A"
+(type GPIB-VISA)
+(channel 130)
+(readTerm "\n")
+(fs ",")
+(eol "\n")
+(multiField dataOnly)
+(arrayFormat linear)
+(timeout 5)
+(byteOrder 0)
+(ppAddr "GPIB0::05::INSTR")
+(model "")
+(eoiEnabled 1)
+(VISAddr "GPIB0::05::INSTR")
+(model ""
+(standard 488)))
+(iodevice "arduino"
+(type ASRL)
+(channel 194)
+(readTerm "\n")
+(fs ",")
+(eol "\n")
+(multiField dataOnly)
+(arrayFormat linear)
+(timeout 5)
+(byteOrder 0)
+(ppAddr "ASRL4::INSTR")
+(model "")
+(eoiEnabled 1)
+(VISAddr "ASRL4::INSTR")
+(model ""
+(standard 488.2))
+(baudRate 9600)
+(charSize 8)
+(stopBits 1)
+(parity off)
+(handshake off)
+(recvBufferSize 4096))
+(iodevice "aduino_USB"
+(type USB)
+(channel 174)
+(readTerm "\n")
+(fs ",")
+(eol "\n")
+(multiField dataOnly)
+(arrayFormat linear)
+(timeout 5)
+(byteOrder 0)
+(ppAddr "USB4::2391::1031::US432109::0::INSTR")
+(model "")
+(eoiEnabled 1)
+(VISAddr "USB4::2391::1031::US432109::0::INSTR")
+(model ""
+(standard 488)))
+(iodevice "BrokenButtons_d"
+(type GPIB-VISA)
+(channel 130)
+(readTerm "\n")
+(fs ",")
+(eol "\n")
+(multiField dataOnly)
+(arrayFormat linear)
+(timeout 5)
+(byteOrder 0)
+(idFileName "hp8757d5.cid")
+(ppAddr "GPIB0::16::INSTR")
+(model "")
+(eoiEnabled 1)
+(VISAddr "GPIB0::16::INSTR")
+(model ""
+(standard 488)))
+(iodevice "scalar"
+(type GPIB-VISA)
+(channel 130)
+(readTerm "\n")
+(fs ",")
+(eol "\n")
+(multiField dataOnly)
+(arrayFormat linear)
+(timeout 5)
+(byteOrder 0)
+(idFileName "hp8757d5.cid")
+(ppAddr "GPIB0::16::INSTR")
+(model "")
+(eoiEnabled 1)
+(VISAddr "GPIB0::16::INSTR")
+(model ""
+(standard 488)
+(state
+(upload "OL")
+(download "IL")))))
+(SaveCF no)
+(watchterminalslist
+(terminal 0
+(deviceIdNumberStr "M.31.25")
+(input 0)
+(index 1)
+(isimport 0)))
+(device 0 ROOTCONTEXT
+(properties
+(variableName Main)
+(variableScope glob)
+(trigMode deg)
+(nextID 38)
+(popupTitleText "Untitled")
+(popupMoveable 1))
+(deviceList
+(device 21 CONTEXT
+(properties
+(name "Short Open for broken button")
+(variableScope cont)
+(trigMode deg)
+(nextID 22)
+(popupTitleText "UserObject")
+(popupMoveable 1))
+(interface
+(output 1
+(type data)
+(name "X")
+(lock constraints)
+(optional yes)))
+(deviceList
+(device 0 MESSAGEBOX
+(properties
+(variableScope cont)
+(message "begin calibration")
+(symbol Information))
+(interface
+(output 1
+(name "OK")
+(lock name constraints))
+(output 2
+(name "Cancel")
+(lock name constraints)))
+(implementation
+(customButtons 0)
+(displayMode 3)
+(buttons "OK  Cancel")
+(buttonLabel1 "OK")
+(buttonLabel2 "Cancel")
+(buttonLabel3 "")
+(bdefault "OK")))
+(device 1 IODEVICE
+(properties
+(name "hp8757D_bench_21_LOvswr")
+(variableScope cont)
+(transactions 2 "WRITE TEXT \"MU6\" EOL" "WRITE TEXT \"SK1\" EOL"))
+(implementation
+(ioDevType 13)
+(iopath "SAP_Reg_1")
+(state 300 #H
+21FF0032003200320032001700644E204E204E204E2013884E2007D027104E204E204E204E202710
+02BC271027100000008100000081000000810000008187FFFC05000000819FFFFD04000000810000
+0081000000810000008100000081400000016000020240000001400000015F5E101A5F5E101A5F5E
+101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E
+101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A000000810000008100000081000000810000
+0081000000000000008100000000040404040303030300FF00FF000100FF00010001020200000000
+00000100010105010801000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000
+)))
+(device 2 MESSAGEBOX
+(properties
+(variableScope cont)
+(message "Connect Short")
+(symbol Information))
+(interface
+(output 1
+(name "OK")
+(lock name constraints))
+(output 2
+(name "Cancel")
+(lock name constraints)))
+(implementation
+(customButtons 0)
+(displayMode 3)
+(buttons "OK  Cancel")
+(buttonLabel1 "OK")
+(buttonLabel2 "Cancel")
+(buttonLabel3 "")
+(bdefault "OK")))
+(device 3 EXITTHREAD
+(properties
+(variableScope cont)))
+(device 4 IODEVICE
+(properties
+(name "hp8757D_bench_21_LOvswr")
+(variableScope cont)
+(transactions 1 "WRITE TEXT \"SK1\" EOL"))
+(implementation
+(ioDevType 13)
+(iopath "SAP_Reg_1")
+(state 300 #H
+21FF0032003200320032001700644E204E204E204E2013884E2007D027104E204E204E204E202710
+02BC271027100000008100000081000000810000008187FFFC05000000819FFFFD04000000810000
+0081000000810000008100000081400000016000020240000001400000015F5E101A5F5E101A5F5E
+101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E
+101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A000000810000008100000081000000810000
+0081000000000000008100000000040404040303030300FF00FF000100FF00010001020200000000
+00000100010105010801000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000
+)))
+(device 5 EXITPROCESS
+(properties
+(variableScope cont)
+(code 0)))
+(device 6 MESSAGEBOX
+(properties
+(variableScope cont)
+(message "Connect Open")
+(symbol Information))
+(interface
+(output 1
+(name "OK")
+(lock name constraints))
+(output 2
+(name "Cancel")
+(lock name constraints)))
+(implementation
+(customButtons 0)
+(displayMode 3)
+(buttons "OK  Cancel")
+(buttonLabel1 "OK")
+(buttonLabel2 "Cancel")
+(buttonLabel3 "")
+(bdefault "OK")))
+(device 7 IODEVICE
+(properties
+(name "hp8757D_bench_21_LOvswr")
+(variableScope cont)
+(transactions 2 "WRITE TEXT \"SK1\" EOL" "EXECUTE LOCAL"))
+(implementation
+(ioDevType 13)
+(iopath "SAP_Reg_1")
+(state 300 #H
+21FF0032003200320032001700644E204E204E204E2013884E2007D027104E204E204E204E202710
+02BC271027100000008100000081000000810000008187FFFC05000000819FFFFD04000000810000
+0081000000810000008100000081400000016000020240000001400000015F5E101A5F5E101A5F5E
+101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E
+101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A000000810000008100000081000000810000
+0081000000000000008100000000040404040303030300FF00FF000100FF00010001020200000000
+00000100010105010801000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000
+)))
+(device 8 EXITCONTEXT
+(properties
+(variableScope cont)))
+(device 18 IODEVICE
+(properties
+(name "hp8757D_bench_21_gain")
+(variableScope cont)
+(transactions 2 "WRITE TEXT \"OM\" EOL" "READ TEXT x REAL64 ARRAY:201"))
+(interface
+(output 1
+(name "x")
+(optional yes)))
+(implementation
+(ioDevType 13)
+(iopath "SAP_Reg_1")
+(state 300 #H
+21FF000A000A000A000A00C8006407D007D007D007D007D007D007D007D007D007D007D007D02710
+27102710271058000304580003040000008100000081AFFFFD05AFFFFD05AFFFFD05AFFFFD05AFFF
+FD05AFFFFD055800030458000304400000014000000140000001400000015F5E101A5F5E101A5F5E
+101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E
+101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A000000810000008100000081000000810000
+00000000000000000000000000000404040403030303FFFF010101FFFFFF0000000000000F000000
+00000100010105010801000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000
+)))
+(configuration
+(connect D0:1 D1:0)
+(connect D1:0 D2:0)
+(connect D0:2 D3:0)
+(connect D2:1 D4:0)
+(connect D2:2 D5:0)
+(connect D4:0 D6:0)
+(connect D6:1 D7:0)
+(connect D6:2 D8:0)
+(connect D7:0 D9:0)
+(connect D9:1 O1:1)))
+(contextCarrier
+(active detail)
+(detail
+(extent 847 597)
+(anchorPt 52 29)
+(configuration
+(devCarrierFor 0
+(active icon)
+(icon
+(extent 84 25))
+(open
+(extent 223 134))
+(terminals on)
+(pinCenter 220 80))
+(devCarrierFor 1
+(active open)
+(icon
+(extent 177 51)
+(iconImage "io.icn"))
+(open
+(extent 254 86))
+(terminals on)
+(pinCenter 220 180))
+(devCarrierFor 2
+(active icon)
+(icon
+(extent 84 25))
+(open
+(extent 223 134))
+(terminals on)
+(pinCenter 220 250))
+(devCarrierFor 3
+(active icon)
+(icon
+(extent 67 15))
+(open)
+(terminals on)
+(pinCenter 530 110))
+(devCarrierFor 4
+(active open)
+(icon
+(extent 177 51)
+(iconImage "io.icn"))
+(open
+(extent 254 86))
+(terminals on)
+(pinCenter 220 340))
+(devCarrierFor 5
+(active open)
+(icon
+(iconImage "stop.icn"))
+(open
+(extent 65 31))
+(pinCenter 480 320))
+(devCarrierFor 6
+(active icon)
+(icon
+(extent 84 25))
+(open
+(extent 223 134))
+(terminals on)
+(pinCenter 220 410))
+(devCarrierFor 7
+(active open)
+(icon
+(extent 177 0)
+(iconImage "io.icn"))
+(open
+(extent 221 74))
+(terminals on)
+(pinCenter 220 500))
+(devCarrierFor 8
+(active icon)
+(icon
+(extent 92 15))
+(open)
+(terminals on)
+(pinCenter 560 470))
+(devCarrierFor 18
+(active open)
+(icon
+(extent 158 0)
+(iconImage "io.icn"))
+(open
+(extent 224 106))
+(terminals on)
+(pinCenter 220 660))
+(connect D0:1 D1:0
+(points 5 264 70 280 70 280 110 220 110 220 116))
+(connect D1:0 D2:0
+(points 2 220 225 220 235))
+(connect D0:2 D3:0
+(points 5 264 90 290 90 290 80 530 80 530 100))
+(connect D2:1 D4:0
+(points 5 264 240 270 240 270 270 220 270 220 276))
+(connect D2:2 D5:0
+(points 3 264 260 480 260 480 284))
+(connect D4:0 D6:0
+(points 2 220 385 220 395))
+(connect D6:1 D7:0
+(points 5 264 400 270 400 270 430 220 430 220 442))
+(connect D6:2 D8:0
+(points 3 264 420 560 420 560 460))
+(connect D7:0 D9:0
+(points 2 220 539 220 586))
+(connect D9:1 O1:1
+(points 4 364 660 630 660 630 269 794 269)))
+(stackingOrder 1 2 3 4 6 7 8 9 5 0))))
+(device 23 IODEVICE
+(properties
+(name "hp8757D_bench_21_LOvswr")
+(variableScope cont)
+(transactions 1 "EXECUTE LOCAL"))
+(implementation
+(ioDevType 13)
+(iopath "SAP_Reg_1")
+(state 300 #H
+21FF0032003200320032001700644E204E204E204E2013884E2007D027104E204E204E204E202710
+02BC271027100000008100000081000000810000008187FFFC05000000819FFFFD04000000810000
+0081000000810000008100000081400000016000020240000001400000015F5E101A5F5E101A5F5E
+101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E
+101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A000000810000008100000081000000810000
+0081000000000000008100000000040404040303030300FF00FF000100FF00010001020200000000
+00000100010105010801000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000
+)))
+(device 25 CONSTANT
+(properties
+(name "Real64 Array")
+(variableScope cont)
+(enableEditing 1))
+(interface
+(input 1
+(type control)
+(name "Default Value")
+(requires
+(datatype Real64))
+(lock name constraints)
+(optional yes))
+(output 1
+(name "Real64")
+(lock name constraints)))
+(implementation
+(value Real
+(numDims 1)
+(size 201)
+(data  [ -11.49 -11.444 -11.21 -11.328 -11.219 -11.411 -11.219 -11.111 -11.002
+-10.952 -11.034 -10.96 -10.853 -10.831 -10.823 -10.859 -10.936 -10.743 -10.768
+-10.713 -10.881 -10.958 -10.785 -10.966 -10.727 -10.933 -10.878 -10.801 -11.01
+-10.686 -10.787 -10.592 -10.828 -10.779 -10.557 -10.568 -10.406 -10.65 -10.458
+-10.463 -10.433 -10.296 -10.548 -10.254 -10.29 -10.219 -9.994 -9.944000000000001
+-9.961 -10.032 -9.906000000000001 -9.914 -9.895 -9.897 -9.897 -9.823 -9.708
+-9.667 -9.705 -9.773999999999999 -9.818 -9.842000000000001 -9.925000000000001
+-9.944000000000001 -10.139 -10.153 -10.013 -10.26 -10.268 -10.337 -10.32 -10.246
+-10.403 -10.364 -10.337 -10.189 -10.276 -10.334 -10.216 -10.337 -10.161 -10.334
+-10.408 -10.263 -10.449 -10.216 -10.296 -10.18 -10.194 -10.238 -9.988
+-9.946999999999999 -9.831 -10.062 -10.04 -9.82 -9.82 -9.763 -10.002 -10.048
+-9.917 -9.888999999999999 -9.848000000000001 -10.032 -10.232 -10.211 -10.216
+-10.208 -10.375 -10.664 -10.499 -10.741 -10.449 -10.57 -10.59 -10.532 -10.831
+-10.342 -10.537 -10.395 -10.757 -10.839 -10.581 -11.002 -10.625 -11.306 -10.971
+-10.98 -11.183 -10.691 -11.136 -10.653 -11.103 -10.867 -10.557 -10.721 -10.395
+-10.785 -10.458 -10.551 -10.463 -10.438 -10.661 -10.502 -10.735 -10.579 -10.587
+-10.642 -10.796 -10.738 -10.823 -10.727 -10.848 -10.988 -10.881 -11.386 -11.078
+-11.43 -11.427 -11.749 -12.213 -11.831 -12.496 -12.111 -12.743 -12.762 -12.43
+-12.886 -12.312 -12.836 -12.309 -12.551 -12.683 -12.065 -12.487 -12.043 -12.526
+-12.441 -12.092 -12.518 -12.059 -12.581 -12.271 -12.015 -12.054 -11.889 -12.065
+-11.902 -11.924 -11.905 -11.831 -11.977 -11.982 -11.853 -12.034 -11.911 -12.141
+-12.276 -12.402 -12.762 -12.663 ]))
+(initValue Real
+(data  0))))
+(device 26 IODEVICE
+(properties
+(name "hp8757D_bench_21_gain")
+(variableScope cont)
+(transactions 2 "WRITE TEXT \"WM\"" "WRITE TEXT a REAL64 STD EOL"))
+(interface
+(input 1
+(name "A")
+(optional yes)))
+(implementation
+(ioDevType 13)
+(iopath "SAP_Reg_1")
+(state 300 #H
+21FF000A000A000A000A00C8006407D007D007D007D007D007D007D007D007D007D007D007D02710
+27102710271058000304580003040000008100000081AFFFFD05AFFFFD05AFFFFD05AFFFFD05AFFF
+FD05AFFFFD055800030458000304400000014000000140000001400000015F5E101A5F5E101A5F5E
+101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E
+101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A000000810000008100000081000000810000
+00000000000000000000000000000404040403030303FFFF010101FFFFFF0000000000000F000000
+00000100010105010801000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000
+)))
+(device 27 CONSTANT
+(properties
+(name "Real64 Array")
+(variableScope cont)
+(enableEditing 1))
+(interface
+(input 1
+(type control)
+(name "Default Value")
+(requires
+(datatype Real64))
+(lock name constraints)
+(optional yes))
+(output 1
+(name "Real64")
+(lock name constraints)))
+(implementation
+(value Real
+(numDims 1)
+(size 201)
+(data  [ -17.665 -17.72 -17.747 -17.775 -17.797 -17.824 -17.83 -17.843 -17.865
+-17.882 -17.898 -17.901 -17.907 -17.912 -17.92 -17.92 -17.92 -17.898 -17.896
+-17.885 -17.879 -17.865 -17.849 -17.813 -17.794 -17.769 -17.75 -17.728 -17.681
+-17.657 -17.629 -17.607 -17.583 -17.561 -17.519 -17.497 -17.486 -17.473 -17.464
+-17.442 -17.445 -17.451 -17.462 -17.484 -17.506 -17.517 -17.552 -17.596 -17.643
+-17.695 -17.753 -17.813 -17.874 -17.94 -18.011 -18.077 -18.151 -18.223 -18.288
+-18.357 -18.42 -18.481 -18.538 -18.593 -18.646 -18.695 -18.731 -18.783 -18.813
+-18.835 -18.852 -18.86 -18.863 -18.857 -18.846 -18.83 -18.81 -18.777 -18.744
+-18.709 -18.665 -18.613 -18.563 -18.505 -18.47 -18.415 -18.357 -18.299 -18.245
+-18.195 -18.143 -18.104 -18.063 -18.036 -18.014 -17.997 -17.992 -17.995 -18.011
+-18.03 -18.08 -18.124 -18.176 -18.234 -18.299 -18.368 -18.442 -18.522 -18.604
+-18.706 -18.794 -18.876 -18.956 -19.036 -19.112 -19.187 -19.25 -19.332 -19.39
+-19.442 -19.483 -19.522 -19.552 -19.571 -19.585 -19.601 -19.607 -19.596 -19.579
+-19.555 -19.522 -19.481 -19.431 -19.382 -19.338 -19.275 -19.206 -19.129 -19.049
+-18.97 -18.884 -18.805 -18.742 -18.662 -18.58 -18.505 -18.434 -18.371 -18.31
+-18.258 -18.228 -18.198 -18.176 -18.162 -18.157 -18.159 -18.17 -18.192 -18.223
+-18.255 -18.302 -18.349 -18.404 -18.459 -18.519 -18.582 -18.643 -18.72 -18.78
+-18.838 -18.887 -18.942 -18.986 -19.03 -19.066 -19.096 -19.123 -19.14 -19.151
+-19.159 -19.159 -19.154 -19.143 -19.126 -19.118 -19.088 -19.052 -19.014 -18.964
+-18.917 -18.863 -18.808 -18.744 -18.681 -18.615 -18.547 -18.478 -18.409 -18.343
+-18.28 -18.225 ]))
+(initValue Real
+(data  0))))
+(device 28 CONTEXT
+(properties
+(name "manual Short Open calculation")
+(variableScope cont)
+(trigMode deg)
+(nextID 29)
+(popupTitleText "UserObject")
+(popupMoveable 1))
+(interface
+(output 1
+(type data)
+(name "X")
+(lock constraints)
+(optional yes)))
+(deviceList
+(device 2 MESSAGEBOX
+(properties
+(variableScope cont)
+(position 212 230)
+(message "Connect Short")
+(symbol Information))
+(interface
+(output 1
+(name "OK")
+(lock name constraints))
+(output 2
+(name "Cancel")
+(lock name constraints)))
+(implementation
+(customButtons 0)
+(displayMode 3)
+(buttons "OK  Cancel")
+(buttonLabel1 "OK")
+(buttonLabel2 "Cancel")
+(buttonLabel3 "")
+(bdefault "OK")))
+(device 4 IODEVICE
+(properties
+(name "hp8757D_bench_21_LOvswr")
+(variableScope cont)
+(transactions 2 "WRITE TEXT \"OD\" EOL" "READ TEXT x REAL64 ARRAY:201"))
+(interface
+(output 1
+(name "X")
+(optional yes)))
+(implementation
+(ioDevType 13)
+(iopath "SAP_Reg_1")
+(state 300 #H
+21FF0032003200320032001700644E204E204E204E2013884E2007D027104E204E204E204E202710
+02BC271027100000008100000081000000810000008187FFFC05000000819FFFFD04000000810000
+0081000000810000008100000081400000016000020240000001400000015F5E101A5F5E101A5F5E
+101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E
+101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A000000810000008100000081000000810000
+0081000000000000008100000000040404040303030300FF00FF000100FF00010001020200000000
+00000100010105010801000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000
+)))
+(device 5 EXITPROCESS
+(properties
+(variableScope cont)
+(code 0)))
+(device 6 MESSAGEBOX
+(properties
+(variableScope cont)
+(message "Connect Open")
+(symbol Information))
+(interface
+(output 1
+(name "OK")
+(lock name constraints))
+(output 2
+(name "Cancel")
+(lock name constraints)))
+(implementation
+(customButtons 0)
+(displayMode 3)
+(buttons "OK  Cancel")
+(buttonLabel1 "OK")
+(buttonLabel2 "Cancel")
+(buttonLabel3 "")
+(bdefault "OK")))
+(device 7 IODEVICE
+(properties
+(name "hp8757D_bench_21_LOvswr")
+(variableScope cont)
+(transactions 2 "WRITE TEXT \"OD\" EOL" "READ TEXT x REAL64 ARRAY:201"))
+(interface
+(output 1
+(name "X")
+(optional yes)))
+(implementation
+(ioDevType 13)
+(iopath "SAP_Reg_1")
+(state 300 #H
+21FF0032003200320032001700644E204E204E204E2013884E2007D027104E204E204E204E202710
+02BC271027100000008100000081000000810000008187FFFC05000000819FFFFD04000000810000
+0081000000810000008100000081400000016000020240000001400000015F5E101A5F5E101A5F5E
+101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E
+101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A000000810000008100000081000000810000
+0081000000000000008100000000040404040303030300FF00FF000100FF00010001020200000000
+00000100010105010801000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000
+)))
+(device 8 EXITCONTEXT
+(properties
+(variableScope cont)))
+(device 18 IODEVICE
+(properties
+(name "hp8757D_bench_21_gain")
+(variableScope cont)
+(transactions 2 "WRITE TEXT \"OM\" EOL" "READ TEXT x REAL64 ARRAY:201"))
+(interface
+(output 1
+(name "x")
+(optional yes)))
+(implementation
+(ioDevType 13)
+(iopath "SAP_Reg_1")
+(state 300 #H
+21FF000A000A000A000A00C8006407D007D007D007D007D007D007D007D007D007D007D007D02710
+27102710271058000304580003040000008100000081AFFFFD05AFFFFD05AFFFFD05AFFFFD05AFFF
+FD05AFFFFD055800030458000304400000014000000140000001400000015F5E101A5F5E101A5F5E
+101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E
+101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A000000810000008100000081000000810000
+00000000000000000000000000000404040403030303FFFF010101FFFFFF0000000000000F000000
+00000100010105010801000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000
+)))
+(device 23 CONSTANT
+(properties
+(name "Real64 Array")
+(variableScope cont)
+(enableEditing 1))
+(interface
+(input 1
+(type control)
+(name "Default Value")
+(requires
+(datatype Real64))
+(lock name constraints)
+(optional yes))
+(output 1
+(name "Real64")
+(lock name constraints)))
+(implementation
+(value Real
+(numDims 1)
+(size 201)
+(data  [ -11.625 -11.51 -11.419 -11.345 -11.251 -11.186 -11.073 -10.982 -10.878
+-10.774 -10.691 -10.62 -10.54 -10.474 -10.43 -10.378 -10.351 -10.318 -10.326
+-10.342 -10.384 -10.477 -10.548 -10.65 -10.741 -10.845 -10.98 -11.081 -11.158
+-11.202 -11.293 -11.317 -11.345 -11.334 -11.317 -11.273 -11.186 -11.122 -11.04
+-10.955 -10.853 -10.738 -10.628 -10.496 -10.362 -10.169 -10.029 -9.9
+-9.768000000000001 -9.68 -9.582000000000001 -9.494 -9.388999999999999
+-9.276999999999999 -9.156000000000001 -9.042999999999999 -8.928000000000001
+-8.845000000000001 -8.818 -8.832000000000001 -8.898 -8.996 -9.159000000000001
+-9.337 -9.513 -9.755000000000001 -10.002 -10.238 -10.482 -10.73 -10.949 -11.15
+-11.304 -11.405 -11.504 -11.548 -11.537 -11.518 -11.457 -11.375 -11.271 -11.139
+-10.993 -10.831 -10.644 -10.417 -10.224 -10.01 -9.804 -9.582000000000001
+-9.372999999999999 -9.218999999999999 -9.060000000000001 -8.922000000000001
+-8.810000000000001 -8.714 -8.645 -8.603999999999999 -8.593 -8.615 -8.661 -8.725
+-8.859 -9.039999999999999 -9.255000000000001 -9.496 -9.755000000000001 -10.046
+-10.329 -10.669 -10.958 -11.235 -11.452 -11.666 -11.869 -11.999 -12.092 -12.117
+-12.169 -12.125 -12.084 -12.04 -11.916 -11.817 -11.62 -11.457 -11.241 -11.007
+-10.732 -10.433 -10.246 -9.984999999999999 -9.788 -9.573 -9.411
+-9.276999999999999 -9.159000000000001 -9.153000000000001 -9.131 -9.202 -9.279
+-9.417 -9.612 -9.831 -10.065 -10.29 -10.606 -10.861 -11.18 -11.485 -11.793
+-12.086 -12.331 -12.63 -12.834 -13.015 -13.114 -13.224 -13.257 -13.224 -13.196
+-13.062 -12.957 -12.746 -12.54 -12.29 -12.01 -11.729 -11.361 -11.144 -10.897
+-10.697 -10.532 -10.425 -10.436 -10.452 -10.562 -10.724 -10.905 -11.125 -11.326
+-11.54 -11.696 -11.919 -12.065 -12.246 -12.479 -12.699 -12.924 -13.13 -13.364
+-13.526 -13.699 -13.828 -13.916 -13.984 -14.053 -14.097 -14.105 -14.094 -13.938
+]))
+(initValue Real
+(data  0))))
+(device 24 CONSTANT
+(properties
+(name "Real64 Array")
+(variableScope cont)
+(enableEditing 1))
+(interface
+(input 1
+(type control)
+(name "Default Value")
+(requires
+(datatype Real64))
+(lock name constraints)
+(optional yes))
+(output 1
+(name "Real64")
+(lock name constraints)))
+(implementation
+(value Real
+(numDims 1)
+(size 201)
+(data  [ -11.35 -11.246 -11.251 -11.293 -11.298 -11.32 -11.304 -11.287 -11.238
+-11.241 -11.219 -11.224 -11.249 -11.246 -11.279 -11.29 -11.29 -11.279 -11.279
+-11.271 -11.246 -11.23 -11.166 -11.084 -10.966 -10.864 -10.752 -10.633 -10.499
+-10.34 -10.257 -10.139 -10.059 -9.98 -9.925000000000001 -9.895 -9.853 -9.881
+-9.908 -9.949999999999999 -10.013 -10.046 -10.084 -10.134 -10.147 -10.098
+-10.123 -10.15 -10.156 -10.213 -10.29 -10.353 -10.403 -10.482 -10.521 -10.543
+-10.584 -10.617 -10.642 -10.683 -10.721 -10.716 -10.697 -10.653 -10.546 -10.436
+-10.32 -10.164 -9.988 -9.834 -9.672000000000001 -9.51 -9.356 -9.205 -9.115
+-9.042999999999999 -8.996 -9.016 -9.061999999999999 -9.167 -9.301 -9.452 -9.642
+-9.826000000000001 -9.999000000000001 -10.136 -10.298 -10.427 -10.546 -10.625
+-10.697 -10.798 -10.878 -10.947 -11.01 -11.078 -11.122 -11.164 -11.213 -11.219
+-11.205 -11.153 -11.095 -11.032 -10.947 -10.85 -10.727 -10.606 -10.438 -10.307
+-10.112 -9.917 -9.669000000000001 -9.468999999999999 -9.304 -9.134
+-9.026999999999999 -8.928000000000001 -8.964 -9.007 -9.148 -9.378
+-9.592000000000001 -9.908 -10.164 -10.482 -10.771 -11.034 -11.241 -11.414 -11.65
+-11.784 -11.924 -11.977 -12.037 -12.04 -11.999 -12.001 -11.916 -11.861 -11.735
+-11.617 -11.499 -11.326 -11.15 -10.916 -10.719 -10.463 -10.238 -9.994
+-9.771000000000001 -9.557 -9.369999999999999 -9.299 -9.233000000000001 -9.282
+-9.356 -9.592000000000001 -9.884 -10.219 -10.672 -11.081 -11.584 -12.018 -12.46
+-12.869 -13.229 -13.545 -13.734 -13.998 -14.163 -14.265 -14.292 -14.289 -14.267
+-14.155 -14.056 -13.908 -13.734 -13.537 -13.27 -13.023 -12.683 -12.391 -12.037
+-11.713 -11.444 -11.164 -10.916 -10.675 -10.474 -10.282 -10.158 -10.057 -10.035
+-10.079 -10.227 -10.471 -10.765 -11.098 -11.364 ]))
+(initValue Real
+(data  0))))
+(device 25 FORMULA
+(properties
+(variableScope cont)
+(expr 5 "(A+B)/2" "" "" "" ""))
+(interface
+(input 1
+(name "A")
+(optional yes))
+(input 2
+(name "B")
+(optional yes))
+(output 1
+(name "Result")
+(tag "Result")
+(lock name constraints)
+(optional yes))))
+(device 26 CONSTANT
+(properties
+(name "Real64 Array")
+(variableScope cont)
+(enableEditing 1))
+(interface
+(input 1
+(type control)
+(name "Default Value")
+(requires
+(datatype Real64))
+(lock name constraints)
+(optional yes))
+(output 1
+(name "Real64")
+(lock name constraints)))
+(implementation
+(value Real
+(numDims 1)
+(size 201)
+(data  [ -11.5015 -11.39 -11.346 -11.3285 -11.286 -11.264 -11.199 -11.146 -11.07
+-11.018 -10.9655 -10.9315 -10.905 -10.871 -10.8655 -10.844 -10.8315 -10.8095
+-10.8135 -10.8165 -10.826 -10.8655 -10.867 -10.878 -10.8645 -10.867 -10.8765
+-10.868 -10.8395 -10.7805 -10.7875 -10.7405 -10.7145 -10.6705 -10.6335 -10.5965
+-10.5335 -10.514 -10.488 -10.466 -10.4455 -10.4055 -10.371 -10.3275 -10.2665
+-10.1475 -10.087 -10.035 -9.972999999999999 -9.956 -9.9465 -9.9345 -9.907
+-9.890499999999999 -9.849499999999999 -9.804 -9.767 -9.740500000000001 -9.7395
+-9.767 -9.816500000000001 -9.8645 -9.9375 -10.0045 -10.0375 -10.105 -10.168
+-10.2075 -10.242 -10.2885 -10.3175 -10.338 -10.337 -10.312 -10.319 -10.304
+-10.275 -10.275 -10.268 -10.2805 -10.2955 -10.3055 -10.3285 -10.3385 -10.333
+-10.286 -10.2725 -10.2295 -10.1845 -10.114 -10.044 -10.0195 -9.978
+-9.943999999999999 -9.917 -9.904499999999999 -9.890499999999999 -9.892
+-9.911000000000001 -9.925000000000001 -9.9415 -9.946999999999999 -9.9855 -10.043
+-10.1075 -10.18 -10.2475 -10.333 -10.3915 -10.496 -10.5425 -10.584 -10.57
+-10.5785 -10.5965 -10.576 -10.569 -10.532 -10.576 -10.577 -10.624 -10.7175
+-10.7625 -10.8725 -10.901 -10.9795 -11.0165 -11.0305 -10.996 -10.933 -10.9575
+-10.8945 -10.867 -10.782 -10.731 -10.6665 -10.5855 -10.583 -10.5315 -10.5385
+-10.514 -10.522 -10.5605 -10.5825 -10.6145 -10.61 -10.6695 -10.669 -10.7185
+-10.7475 -10.7885 -10.8285 -10.857 -10.9715 -11.0415 -11.1565 -11.2445 -11.418
+-11.5815 -11.7325 -11.9465 -12.085 -12.2845 -12.3955 -12.5135 -12.5905 -12.63
+-12.6495 -12.559 -12.582 -12.5425 -12.493 -12.423 -12.367 -12.3615 -12.313
+-12.3185 -12.3245 -12.3295 -12.3395 -12.306 -12.288 -12.1965 -12.162 -12.059
+-11.9845 -11.9685 -11.9395 -11.9275 -11.9095 -11.927 -11.912 -11.938 -11.953
+-11.985 -12.0435 -12.1525 -12.298 -12.449 -12.6095 -12.662 ]))
+(initValue Real
+(data  0))))
+(device 27 FORMULA
+(properties
+(variableScope cont)
+(expr 1 "A-B"))
+(interface
+(input 1
+(name "A")
+(optional yes))
+(input 2
+(name "B")
+(optional yes))
+(output 1
+(name "Result")
+(tag "Result")
+(lock name constraints)
+(optional yes))))
+(device 28 TEXTDISPLAY
+(properties
+(variableScope cont))
+(interface
+(input 1
+(name "Data"))))
+(configuration
+(connect D0:1 D1:0)
+(connect D0:2 D2:0)
+(connect D1:0 D3:0)
+(connect D3:1 D4:0)
+(connect D3:2 D5:0)
+(connect D4:0 D6:0)
+(connect D1:1 D7:1)
+(connect D4:1 D8:1)
+(connect D7:1 D9:1)
+(connect D8:1 D9:2)
+(connect D9:1 D10:1)
+(connect D10:1 D11:1)
+(connect D6:1 D11:2)
+(connect D11:1 D12:1)
+(connect D6:1 O1:1)))
+(contextCarrier
+(active detail)
+(detail
+(extent 1159 520)
+(anchorPt -965 -3)
+(configuration
+(devCarrierFor 2
+(active icon)
+(icon
+(extent 84 25))
+(open
+(extent 223 134))
+(terminals on)
+(pinCenter 220 250))
+(devCarrierFor 4
+(active open)
+(icon
+(extent 177 51)
+(iconImage "io.icn"))
+(open
+(extent 254 86))
+(terminals on)
+(pinCenter 220 340))
+(devCarrierFor 5
+(active open)
+(icon
+(iconImage "stop.icn"))
+(open
+(extent 65 31))
+(pinCenter 420 260))
+(devCarrierFor 6
+(active icon)
+(icon
+(extent 84 25))
+(open
+(extent 223 134))
+(terminals on)
+(pinCenter 220 410))
+(devCarrierFor 7
+(active open)
+(icon
+(extent 177 0)
+(iconImage "io.icn"))
+(open
+(extent 221 74))
+(terminals on)
+(pinCenter 220 500))
+(devCarrierFor 8
+(active icon)
+(icon
+(extent 92 15))
+(open)
+(terminals on)
+(pinCenter 400 420))
+(devCarrierFor 18
+(active open)
+(icon
+(extent 158 0)
+(iconImage "io.icn"))
+(open
+(extent 224 106))
+(terminals on)
+(pinCenter 220 660))
+(devCarrierFor 23
+(active icon)
+(icon
+(extent 75 15))
+(open
+(extent 124 646)
+(showFormat real))
+(pinCenter 590 410))
+(devCarrierFor 24
+(active icon)
+(icon
+(extent 75 15))
+(open
+(extent 124 656)
+(showFormat real))
+(pinCenter 800 420))
+(devCarrierFor 25
+(active icon)
+(icon
+(extent 50 25))
+(open
+(extent 145 50))
+(terminals on)
+(pinCenter 1090 360))
+(devCarrierFor 26
+(active open)
+(icon)
+(open
+(extent 124 656)
+(showFormat real))
+(pinCenter 1340 390))
+(devCarrierFor 27
+(active open)
+(icon)
+(open
+(extent 145 50))
+(terminals on)
+(pinCenter 1580 190))
+(devCarrierFor 28
+(active open)
+(icon)
+(open
+(extent 131 616))
+(pinCenter 1820 380))
+(connect D0:1 D1:0
+(points 5 264 240 270 240 270 270 220 270 220 276))
+(connect D0:2 D2:0
+(points 7 264 260 280 260 280 250 380 250 380 210 420 210 420 224))
+(connect D1:0 D3:0
+(points 2 220 385 220 395))
+(connect D3:1 D4:0
+(points 5 264 400 270 400 270 430 220 430 220 442))
+(connect D3:2 D5:0
+(points 5 264 420 330 420 330 400 400 400 400 410))
+(connect D4:0 D6:0
+(points 2 220 539 220 586))
+(connect D1:1 D7:1
+(points 4 379 340 470 340 470 410 550 410))
+(connect D4:1 D8:1
+(points 4 363 500 650 500 650 420 760 420))
+(connect D7:1 D9:1
+(points 4 630 410 650 410 650 350 1062 350))
+(connect D8:1 D9:2
+(points 4 840 420 860 420 860 370 1062 370))
+(connect D9:1 D10:1
+(points 4 1117 360 1140 360 1140 390 1275 390))
+(connect D10:1 D11:1
+(points 4 1404 390 1420 390 1420 180 1475 180))
+(connect D6:1 D11:2
+(points 6 364 660 630 660 630 440 1450 440 1450 200 1475 200))
+(connect D11:1 D12:1
+(points 4 1705 190 1730 190 1730 380 1752 380))
+(connect D6:1 O1:1
+(points 4 364 660 630 660 630 262 2123 262)))
+(stackingOrder 0 4 6 2 3 1 5 10 7 8 9 11 12))))
+(device 30 CONSTANT
+(properties
+(name "Real64 Array")
+(variableScope cont)
+(enableEditing 1))
+(interface
+(input 1
+(type control)
+(name "Default Value")
+(requires
+(datatype Real64))
+(lock name constraints)
+(optional yes))
+(output 1
+(name "Real64")
+(lock name constraints)))
+(implementation
+(value Real
+(numDims 1)
+(size 201)
+(data  [ -11.49 -11.444 -11.21 -11.328 -11.219 -11.411 -11.219 -11.111 -11.002
+-10.952 -11.034 -10.96 -10.853 -10.831 -10.823 -10.859 -10.936 -10.743 -10.768
+-10.713 -10.881 -10.958 -10.785 -10.966 -10.727 -10.933 -10.878 -10.801 -11.01
+-10.686 -10.787 -10.592 -10.828 -10.779 -10.557 -10.568 -10.406 -10.65 -10.458
+-10.463 -10.433 -10.296 -10.548 -10.254 -10.29 -10.219 -9.994 -9.944000000000001
+-9.961 -10.032 -9.906000000000001 -9.914 -9.895 -9.897 -9.897 -9.823 -9.708
+-9.667 -9.705 -9.773999999999999 -9.818 -9.842000000000001 -9.925000000000001
+-9.944000000000001 -10.139 -10.153 -10.013 -10.26 -10.268 -10.337 -10.32 -10.246
+-10.403 -10.364 -10.337 -10.189 -10.276 -10.334 -10.216 -10.337 -10.161 -10.334
+-10.408 -10.263 -10.449 -10.216 -10.296 -10.18 -10.194 -10.238 -9.988
+-9.946999999999999 -9.831 -10.062 -10.04 -9.82 -9.82 -9.763 -10.002 -10.048
+-9.917 -9.888999999999999 -9.848000000000001 -10.032 -10.232 -10.211 -10.216
+-10.208 -10.375 -10.664 -10.499 -10.741 -10.449 -10.57 -10.59 -10.532 -10.831
+-10.342 -10.537 -10.395 -10.757 -10.839 -10.581 -11.002 -10.625 -11.306 -10.971
+-10.98 -11.183 -10.691 -11.136 -10.653 -11.103 -10.867 -10.557 -10.721 -10.395
+-10.785 -10.458 -10.551 -10.463 -10.438 -10.661 -10.502 -10.735 -10.579 -10.587
+-10.642 -10.796 -10.738 -10.823 -10.727 -10.848 -10.988 -10.881 -11.386 -11.078
+-11.43 -11.427 -11.749 -12.213 -11.831 -12.496 -12.111 -12.743 -12.762 -12.43
+-12.886 -12.312 -12.836 -12.309 -12.551 -12.683 -12.065 -12.487 -12.043 -12.526
+-12.441 -12.092 -12.518 -12.059 -12.581 -12.271 -12.015 -12.054 -11.889 -12.065
+-11.902 -11.924 -11.905 -11.831 -11.977 -11.982 -11.853 -12.034 -11.911 -12.141
+-12.276 -12.402 -12.762 -12.663 ]))
+(initValue Real
+(data  0))))
+(device 31 CONTEXT
+(properties
+(name "validation VS Short Open for broken button")
+(variableScope cont)
+(trigMode deg)
+(nextID 30)
+(popupTitleText "UserObject")
+(popupMoveable 1))
+(interface
+(output 1
+(type data)
+(name "X")
+(lock constraints)
+(optional yes))
+(output 2
+(type data)
+(name "Y")
+(lock constraints)
+(optional yes)))
+(deviceList
+(device 0 MESSAGEBOX
+(properties
+(variableScope cont)
+(message "Short")
+(symbol Information))
+(interface
+(output 1
+(name "OK")
+(lock name constraints))
+(output 2
+(name "Cancel")
+(lock name constraints)))
+(implementation
+(customButtons 0)
+(displayMode 3)
+(buttons "OK  Cancel")
+(buttonLabel1 "OK")
+(buttonLabel2 "Cancel")
+(buttonLabel3 "")
+(bdefault "OK")))
+(device 1 IODEVICE
+(properties
+(name "hp8757D_bench_21_LOvswr")
+(variableScope cont)
+(transactions 2 "WRITE TEXT \"MU6\" EOL" "WRITE TEXT \"SK1\" EOL"))
+(implementation
+(ioDevType 13)
+(iopath "SAP_Reg_1")
+(state 300 #H
+21FF0032003200320032001700644E204E204E204E2013884E2007D027104E204E204E204E202710
+02BC271027100000008100000081000000810000008187FFFC05000000819FFFFD04000000810000
+0081000000810000008100000081400000016000020240000001400000015F5E101A5F5E101A5F5E
+101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E
+101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A000000810000008100000081000000810000
+0081000000000000008100000000040404040303030300FF00FF000100FF00010001020200000000
+00000100010105010801000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000
+)))
+(device 3 EXITTHREAD
+(properties
+(variableScope cont)))
+(device 4 IODEVICE
+(properties
+(name "hp8757D_bench_21_LOvswr")
+(variableScope cont)
+(transactions 1 "WRITE TEXT \"SK1\" EOL"))
+(implementation
+(ioDevType 13)
+(iopath "SAP_Reg_1")
+(state 300 #H
+21FF0032003200320032001700644E204E204E204E2013884E2007D027104E204E204E204E202710
+02BC271027100000008100000081000000810000008187FFFC05000000819FFFFD04000000810000
+0081000000810000008100000081400000016000020240000001400000015F5E101A5F5E101A5F5E
+101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E
+101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A000000810000008100000081000000810000
+0081000000000000008100000000040404040303030300FF00FF000100FF00010001020200000000
+00000100010105010801000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000
+)))
+(device 6 MESSAGEBOX
+(properties
+(variableScope cont)
+(message "Connect Open")
+(symbol Information))
+(interface
+(output 1
+(name "OK")
+(lock name constraints))
+(output 2
+(name "Cancel")
+(lock name constraints)))
+(implementation
+(customButtons 0)
+(displayMode 3)
+(buttons "OK  Cancel")
+(buttonLabel1 "OK")
+(buttonLabel2 "Cancel")
+(buttonLabel3 "")
+(bdefault "OK")))
+(device 7 IODEVICE
+(properties
+(name "hp8757D_bench_21_LOvswr")
+(variableScope cont)
+(transactions 2 "WRITE TEXT \"SK1\" EOL" "EXECUTE LOCAL"))
+(implementation
+(ioDevType 13)
+(iopath "SAP_Reg_1")
+(state 300 #H
+21FF0032003200320032001700644E204E204E204E2013884E2007D027104E204E204E204E202710
+02BC271027100000008100000081000000810000008187FFFC05000000819FFFFD04000000810000
+0081000000810000008100000081400000016000020240000001400000015F5E101A5F5E101A5F5E
+101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E
+101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A000000810000008100000081000000810000
+0081000000000000008100000000040404040303030300FF00FF000100FF00010001020200000000
+00000100010105010801000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000
+)))
+(device 8 EXITCONTEXT
+(properties
+(variableScope cont)))
+(device 18 IODEVICE
+(properties
+(name "hp8757D_bench_21_gain")
+(variableScope cont)
+(transactions 2 "WRITE TEXT \"OM\" EOL" "READ TEXT x REAL64 ARRAY:201"))
+(interface
+(output 1
+(name "x")
+(optional yes)))
+(implementation
+(ioDevType 13)
+(iopath "SAP_Reg_1")
+(state 300 #H
+21FF000A000A000A000A00C8006407D007D007D007D007D007D007D007D007D007D007D007D02710
+27102710271058000304580003040000008100000081AFFFFD05AFFFFD05AFFFFD05AFFFFD05AFFF
+FD05AFFFFD055800030458000304400000014000000140000001400000015F5E101A5F5E101A5F5E
+101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E
+101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A000000810000008100000081000000810000
+00000000000000000000000000000404040403030303FFFF010101FFFFFF0000000000000F000000
+00000100010105010801000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000
+)))
+(device 22 IODEVICE
+(properties
+(name "hp8757D_bench_21_LOvswr")
+(variableScope cont)
+(transactions 3 "WRITE TEXT \"FD0\" EOL" "WRITE TEXT \"OD\" EOL"
+"READ TEXT x REAL64 ARRAY:201"))
+(interface
+(output 1
+(name "x")
+(optional yes)))
+(implementation
+(ioDevType 13)
+(iopath "SAP_Reg_1")
+(state 300 #H
+21FF0032003200320032001700644E204E204E204E2013884E2007D027104E204E204E204E202710
+02BC271027100000008100000081000000810000008187FFFC05000000819FFFFD04000000810000
+0081000000810000008100000081400000016000020240000001400000015F5E101A5F5E101A5F5E
+101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E
+101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A000000810000008100000081000000810000
+0081000000000000008100000000040404040303030300FF00FF000100FF00010001020200000000
+00000100010105010801000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000
+)))
+(device 23 CONSTANT
+(properties
+(name "Real64 Array")
+(variableScope cont)
+(enableEditing 1))
+(interface
+(input 1
+(type control)
+(name "Default Value")
+(requires
+(datatype Real64))
+(lock name constraints)
+(optional yes))
+(output 1
+(name "Real64")
+(lock name constraints)))
+(implementation
+(value Real
+(numDims 1)
+(size 201)
+(data  [ -11.644 -11.628 -11.32 -11.342 -11.262 -11.279 -11.153 -10.996 -10.776
+-10.804 -10.76 -10.631 -10.592 -10.408 -10.425 -10.425 -10.417 -10.315 -10.274
+-10.263 -10.458 -10.496 -10.532 -10.732 -10.617 -10.974 -10.938 -11.059 -11.4
+-11.122 -11.359 -11.166 -11.521 -11.526 -11.251 -11.309 -11.07 -11.309 -11.098
+-10.947 -10.903 -10.644 -10.809 -10.524 -10.395 -10.241 -9.977 -9.853 -9.82
+-9.76 -9.587 -9.526999999999999 -9.365 -9.369999999999999 -9.241
+-9.018000000000001 -8.914 -8.801 -8.788 -8.823 -8.878 -8.972 -9.119999999999999
+-9.276999999999999 -9.635999999999999 -9.757 -9.845000000000001 -10.329 -10.507
+-10.809 -10.977 -11.081 -11.425 -11.515 -11.587 -11.485 -11.587 -11.663 -11.463
+-11.496 -11.194 -11.183 -11.147 -10.815 -10.771 -10.395 -10.263 -10.002 -9.859
+-9.705 -9.353999999999999 -9.148 -8.952999999999999 -9.098000000000001
+-8.909000000000001 -8.659000000000001 -8.579000000000001 -8.446999999999999
+-8.741 -8.699999999999999 -8.593 -8.680999999999999 -8.680999999999999 -9.057
+-9.353999999999999 -9.474 -9.755000000000001 -9.875 -10.345 -10.818 -10.886
+-11.463 -11.328 -11.732 -11.911 -11.966 -12.477 -11.985 -12.205 -12.032 -12.24
+-12.273 -11.773 -11.985 -11.422 -11.762 -11.284 -10.969 -10.903 -10.246 -10.389
+-9.776999999999999 -10.037 -9.601000000000001 -9.255000000000001 -9.301
+-8.952999999999999 -9.365 -8.996 -9.218999999999999 -9.199999999999999
+-9.295999999999999 -9.752000000000001 -9.664 -10.191 -10.287 -10.477 -10.881
+-11.246 -11.479 -11.891 -11.993 -12.413 -12.713 -12.704 -13.391 -13.029 -13.32
+-13.215 -13.259 -13.564 -12.853 -13.191 -12.534 -12.748 -12.509 -11.82 -11.946
+-11.136 -11.353 -10.672 -10.73 -10.719 -10.112 -10.521 -10.125 -10.785 -10.798
+-10.653 -11.326 -11.032 -11.878 -11.787 -11.735 -12.1 -12.133 -12.63 -12.672
+-12.908 -13.213 -13.257 -13.658 -13.842 -13.729 -14.067 -13.924 -14.1 -14.193
+-14.075 -14.306 -13.962 ]))
+(initValue Real
+(data  0))))
+(device 24 IODEVICE
+(properties
+(name "hp8757D_bench_21_LOvswr")
+(variableScope cont)
+(transactions 2 "WRITE TEXT \"OD\" EOL" "READ TEXT x REAL64 ARRAY:201"))
+(interface
+(output 1
+(name "x")
+(optional yes)))
+(implementation
+(ioDevType 13)
+(iopath "SAP_Reg_1")
+(state 300 #H
+21FF0032003200320032001700644E204E204E204E2013884E2007D027104E204E204E204E202710
+02BC271027100000008100000081000000810000008187FFFC05000000819FFFFD04000000810000
+0081000000810000008100000081400000016000020240000001400000015F5E101A5F5E101A5F5E
+101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E
+101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A000000810000008100000081000000810000
+0081000000000000008100000000040404040303030300FF00FF000100FF00010001020200000000
+00000100010105010801000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000
+)))
+(device 25 CONSTANT
+(properties
+(name "Real64 Array")
+(variableScope cont)
+(enableEditing 1))
+(interface
+(input 1
+(type control)
+(name "Default Value")
+(requires
+(datatype Real64))
+(lock name constraints)
+(optional yes))
+(output 1
+(name "Real64")
+(lock name constraints)))
+(implementation
+(value Real
+(numDims 1)
+(size 201)
+(data  [ -11.378 -11.298 -11.144 -11.359 -11.213 -11.578 -11.331 -11.262 -11.265
+-11.139 -11.348 -11.326 -11.155 -11.287 -11.257 -11.328 -11.49 -11.205 -11.298
+-11.199 -11.331 -11.449 -11.07 -11.224 -10.875 -10.927 -10.859 -10.57 -10.658
+-10.279 -10.249 -10.051 -10.161 -10.068 -9.895 -9.864000000000001
+-9.776999999999999 -10.024 -9.859 -10.018 -9.996 -9.977 -10.329 -10.021 -10.208
+-10.232 -10.048 -10.076 -10.139 -10.345 -10.257 -10.337 -10.458 -10.452 -10.584
+-10.658 -10.532 -10.562 -10.653 -10.754 -10.787 -10.732 -10.754 -10.636 -10.658
+-10.568 -10.2 -10.208 -10.051 -9.884 -9.689 -9.433 -9.403000000000001 -9.241
+-9.115 -8.928000000000001 -8.988 -9.023999999999999 -9.002000000000001
+-9.212999999999999 -9.161 -9.513 -9.712999999999999 -9.755000000000001 -10.158
+-10.076 -10.373 -10.403 -10.562 -10.812 -10.664 -10.779 -10.754 -11.065 -11.208
+-11.015 -11.095 -11.103 -11.287 -11.419 -11.268 -11.117 -11.04 -11.029 -11.128
+-10.958 -10.686 -10.557 -10.414 -10.532 -10.114 -10.026 -9.592000000000001
+-9.428000000000001 -9.295999999999999 -9.117000000000001 -9.208
+-8.733000000000001 -8.895 -8.792999999999999 -9.292999999999999 -9.439 -9.414
+-10.051 -9.867000000000001 -10.878 -10.719 -11.002 -11.504 -11.166 -11.911
+-11.567 -12.177 -12.177 -11.878 -12.172 -11.861 -12.221 -11.955 -11.891 -11.754
+-11.584 -11.606 -11.361 -11.293 -10.892 -10.713 -10.425 -10.364 -10.024
+-9.771000000000001 -9.494 -9.299 -9.307 -9.071 -9.414 -9.167 -9.549 -9.683
+-10.235 -10.886 -10.828 -11.82 -11.729 -12.737 -13.067 -13.034 -13.85 -13.515
+-14.339 -13.998 -14.355 -14.677 -14.028 -14.473 -13.99 -14.259 -14.135 -13.528
+-13.734 -13.122 -13.281 -12.792 -12.295 -12.032 -11.663 -11.521 -11.155 -10.952
+-10.628 -10.425 -10.307 -10.156 -9.994 -10.007 -9.914 -10.186 -10.384 -10.724
+-11.23 -11.375 ]))
+(initValue Real
+(data  0))))
+(device 27 FORMULA
+(properties
+(variableScope cont)
+(expr 3 "(A+B)/2" "" ""))
+(interface
+(input 1
+(name "A")
+(optional yes))
+(input 2
+(name "B")
+(optional yes))
+(output 1
+(name "Result")
+(tag "Result")
+(lock name constraints)
+(optional yes))))
+(device 28 CONSTANT
+(properties
+(name "Real64 Array")
+(variableScope cont)
+(enableEditing 1))
+(interface
+(input 1
+(type control)
+(name "Default Value")
+(requires
+(datatype Real64))
+(lock name constraints)
+(optional yes))
+(output 1
+(name "Real64")
+(lock name constraints)))
+(implementation
+(value Real
+(numDims 1)
+(size 201)
+(data  [ -11.511 -11.463 -11.232 -11.3505 -11.2375 -11.4285 -11.242 -11.129
+-11.0205 -10.9715 -11.054 -10.9785 -10.8735 -10.8475 -10.841 -10.8765 -10.9535
+-10.76 -10.786 -10.731 -10.8945 -10.9725 -10.801 -10.978 -10.746 -10.9505
+-10.8985 -10.8145 -11.029 -10.7005 -10.804 -10.6085 -10.841 -10.797 -10.573
+-10.5865 -10.4235 -10.6665 -10.4785 -10.4825 -10.4495 -10.3105 -10.569 -10.2725
+-10.3015 -10.2365 -10.0125 -9.964500000000001 -9.9795 -10.0525
+-9.922000000000001 -9.931999999999999 -9.9115 -9.911 -9.9125 -9.838000000000001
+-9.722999999999999 -9.6815 -9.720500000000001 -9.788499999999999 -9.8325 -9.852
+-9.936999999999999 -9.956499999999998 -10.147 -10.1625 -10.0225 -10.2685 -10.279
+-10.3465 -10.333 -10.257 -10.414 -10.378 -10.351 -10.2065 -10.2875 -10.3435
+-10.2325 -10.3545 -10.1775 -10.348 -10.43 -10.285 -10.4645 -10.2355 -10.318
+-10.2025 -10.2105 -10.2585 -10.009 -9.9635 -9.8535 -10.0815 -10.0585 -9.837
+-9.837 -9.774999999999999 -10.014 -10.0595 -9.9305 -9.899000000000001
+-9.860499999999998 -10.043 -10.241 -10.216 -10.2205 -10.216 -10.3795 -10.675
+-10.5 -10.7445 -10.46 -10.58 -10.6035 -10.5415 -10.8425 -10.359 -10.55 -10.4125
+-10.7665 -10.856 -10.5935 -11.018 -10.6445 -11.32 -11.0015 -10.9855 -11.2035
+-10.706 -11.15 -10.672 -11.107 -10.889 -10.5665 -10.7365 -10.407 -10.793
+-10.4755 -10.555 -10.477 -10.44 -10.679 -10.5125 -10.742 -10.5895 -10.595
+-10.653 -10.805 -10.7515 -10.831 -10.7435 -10.856 -11.01 -10.8875 -11.4025
+-11.098 -11.4345 -11.449 -11.747 -12.225 -11.8405 -12.5055 -12.1315 -12.7425
+-12.788 -12.427 -12.898 -12.3255 -12.846 -12.335 -12.5425 -12.698 -12.07 -12.497
+-12.0575 -12.522 -12.4665 -12.0905 -12.53 -12.077 -12.5795 -12.2895 -12.015
+-12.066 -11.898 -12.0755 -11.9135 -11.93 -11.9205 -11.841 -11.9825 -11.999
+-11.8615 -12.037 -11.919 -12.143 -12.2885 -12.3995 -12.768 -12.6685 ]))
+(initValue Real
+(data  0))))
+(configuration
+(connect D8:0 D1:0)
+(connect D0:2 D2:0)
+(connect D1:0 D3:0)
+(connect D3:0 D4:0)
+(connect D4:1 D5:0)
+(connect D4:2 D6:0)
+(connect D10:0 D7:0)
+(connect D0:1 D8:0)
+(connect D7:0 D9:0)
+(connect D8:1 D9:1)
+(connect D5:0 D10:0)
+(connect D9:0 D11:0)
+(connect D10:1 D11:1)
+(connect D11:0 D12:0)
+(connect D9:1 D12:1)
+(connect D11:1 D12:2)
+(connect D12:1 D13:1)
+(connect D7:1 O1:1)
+(connect D12:1 O2:1)))
+(contextCarrier
+(wndOrigin 2 2)
+(wndState res)
+(active detail)
+(detail
+(extent 934 646)
+(anchorPt -69 11)
+(configuration
+(devCarrierFor 0
+(active icon)
+(icon
+(extent 84 25))
+(open
+(extent 223 134))
+(terminals on)
+(pinCenter 220 40))
+(devCarrierFor 1
+(active icon)
+(icon
+(extent 177 51)
+(iconImage "io.icn"))
+(open
+(extent 254 86))
+(terminals on)
+(pinCenter 220 220))
+(devCarrierFor 3
+(active icon)
+(icon
+(extent 67 15))
+(open)
+(terminals on)
+(pinCenter 370 80))
+(devCarrierFor 4
+(active icon)
+(icon
+(extent 177 51)
+(iconImage "io.icn"))
+(open
+(extent 254 86))
+(terminals on)
+(pinCenter 220 340))
+(devCarrierFor 6
+(active icon)
+(icon
+(extent 84 25))
+(open
+(extent 223 134))
+(terminals on)
+(pinCenter 220 410))
+(devCarrierFor 7
+(active icon)
+(icon
+(extent 177 51)
+(iconImage "io.icn"))
+(open
+(extent 221 74))
+(terminals on)
+(pinCenter 220 500))
+(devCarrierFor 8
+(active icon)
+(icon
+(extent 92 15))
+(open
+(extent 68 30))
+(terminals on)
+(pinCenter 70 440))
+(devCarrierFor 18
+(active icon)
+(icon
+(extent 158 51)
+(iconImage "io.icn"))
+(open
+(extent 224 106))
+(terminals on)
+(pinCenter 220 660))
+(devCarrierFor 22
+(active open)
+(icon
+(extent 177 51)
+(iconImage "io.icn"))
+(open
+(extent 234 96))
+(terminals on)
+(pinCenter 220 120))
+(devCarrierFor 23
+(active open)
+(icon)
+(open
+(extent 117 74)
+(showFormat real))
+(pinCenter 530 440))
+(devCarrierFor 24
+(active icon)
+(icon
+(extent 177 51)
+(iconImage "io.icn"))
+(open
+(extent 254 86))
+(terminals on)
+(pinCenter 220 580))
+(devCarrierFor 25
+(active open)
+(icon)
+(open
+(extent 117 74)
+(showFormat real))
+(pinCenter 530 580))
+(devCarrierFor 27
+(active open)
+(icon)
+(open
+(extent 145 80))
+(terminals on)
+(pinCenter 520 760))
+(devCarrierFor 28
+(active open)
+(icon)
+(open
+(extent 117 74)
+(showFormat real))
+(pinCenter 1050 230))
+(connect D8:0 D1:0
+(points 4 220 170 220 170 220 170 220 192))
+(connect D0:2 D2:0
+(points 3 264 50 370 50 370 70))
+(connect D1:0 D3:0
+(points 2 220 248 220 312))
+(connect D3:0 D4:0
+(points 2 220 368 220 395))
+(connect D4:1 D5:0
+(points 5 264 400 280 400 280 450 220 450 220 472))
+(connect D4:2 D6:0
+(points 9 264 420 270 420 270 440 210 440 210 450 160 450 160 410 70 410 70 430)
+)
+(connect D10:0 D7:0
+(points 2 220 608 220 632))
+(connect D0:1 D8:0
+(points 5 264 30 280 30 280 70 220 70 220 51))
+(connect D7:0 D9:0
+(points 10 220 688 220 710 330 710 330 460 320 460 320 400 330 400 330 360 530
+360 530 382))
+(connect D8:1 D9:1
+(points 4 369 120 450 120 450 440 469 440))
+(connect D5:0 D10:0
+(points 2 220 528 220 552))
+(connect D9:0 D11:0
+(points 2 530 479 530 522))
+(connect D10:1 D11:1
+(points 2 311 580 469 580))
+(connect D11:0 D12:0
+(points 2 530 619 530 699))
+(connect D9:1 D12:1
+(points 6 591 440 620 440 620 650 410 650 410 740 415 740))
+(connect D11:1 D12:2
+(points 8 591 580 610 580 610 640 400 640 400 750 410 750 410 780 415 780))
+(connect D12:1 D13:1
+(points 6 645 760 670 760 670 560 960 560 960 230 989 230))
+(connect D7:1 O1:1
+(points 4 301 660 630 660 630 151 1002 151))
+(connect D12:1 O2:1
+(points 4 645 760 670 760 670 471 1002 471)))
+(stackingOrder 4 1 0 2 7 5 10 13 11 3 12 9 6 8))))
+(device 32 CONSTANT
+(properties
+(name "Real64 Array")
+(variableScope cont)
+(enableEditing 1))
+(interface
+(input 1
+(type control)
+(name "Default Value")
+(requires
+(datatype Real64))
+(lock name constraints)
+(optional yes))
+(output 1
+(name "Real64")
+(lock name constraints)))
+(implementation
+(value Real
+(numDims 1)
+(size 201)
+(data  [ -11.512 -11.463 -11.232 -11.35 -11.238 -11.43 -11.243 -11.131 -11.021
+-10.971 -11.054 -10.98 -10.875 -10.848 -10.842 -10.878 -10.955 -10.76 -10.787
+-10.732 -10.894 -10.974 -10.801 -10.98 -10.746 -10.952 -10.9 -10.815 -11.029
+-10.702 -10.804 -10.609 -10.842 -10.798 -10.573 -10.587 -10.425 -10.666 -10.48
+-10.482 -10.449 -10.312 -10.57 -10.274 -10.301 -10.238 -10.013
+-9.965999999999999 -9.98 -10.054 -9.922000000000001 -9.933 -9.911 -9.911 -9.914
+-9.84 -9.724 -9.683 -9.722 -9.789999999999999 -9.834 -9.853 -9.939 -9.958
+-10.147 -10.164 -10.024 -10.268 -10.279 -10.348 -10.334 -10.257 -10.414 -10.378
+-10.351 -10.208 -10.287 -10.345 -10.232 -10.356 -10.178 -10.348 -10.43 -10.285
+-10.466 -10.235 -10.318 -10.202 -10.211 -10.26 -10.01 -9.962999999999999 -9.853
+-10.081 -10.059 -9.837 -9.837 -9.776999999999999 -10.015 -10.059 -9.93 -9.9
+-9.862 -10.043 -10.241 -10.216 -10.221 -10.221 -10.384 -10.672 -10.502 -10.743
+-10.46 -10.581 -10.603 -10.543 -10.842 -10.359 -10.551 -10.414 -10.768 -10.856
+-10.595 -11.018 -10.644 -11.32 -11.002 -10.985 -11.205 -10.708 -11.15 -10.672
+-11.109 -10.889 -10.568 -10.738 -10.408 -10.793 -10.477 -10.557 -10.477 -10.441
+-10.68 -10.513 -10.743 -10.59 -10.595 -10.653 -10.807 -10.752 -10.831 -10.743
+-10.856 -11.01 -10.889 -11.403 -11.098 -11.436 -11.449 -11.749 -12.227 -11.842
+-12.507 -12.133 -12.743 -12.79 -12.427 -12.899 -12.325 -12.847 -12.336 -12.542
+-12.699 -12.07 -12.498 -12.059 -12.523 -12.468 -12.092 -12.531 -12.078 -12.581
+-12.29 -12.015 -12.067 -11.9 -12.075 -11.913 -11.93 -11.922 -11.842 -11.982
+-11.999 -11.861 -12.037 -11.919 -12.144 -12.29 -12.4 -12.768 -12.669 ]))
+(initValue Real
+(data  0))))
+(device 33 CONSTANT
+(properties
+(name "Real64 Array")
+(variableScope cont)
+(enableEditing 1))
+(interface
+(input 1
+(type control)
+(name "Default Value")
+(requires
+(datatype Real64))
+(lock name constraints)
+(optional yes))
+(output 1
+(name "Real64")
+(lock name constraints)))
+(implementation
+(value Real
+(numDims 1)
+(size 201)
+(data  [ -11.511 -11.463 -11.232 -11.3505 -11.2375 -11.4285 -11.242 -11.129
+-11.0205 -10.9715 -11.054 -10.9785 -10.8735 -10.8475 -10.841 -10.8765 -10.9535
+-10.76 -10.786 -10.731 -10.8945 -10.9725 -10.801 -10.978 -10.746 -10.9505
+-10.8985 -10.8145 -11.029 -10.7005 -10.804 -10.6085 -10.841 -10.797 -10.573
+-10.5865 -10.4235 -10.6665 -10.4785 -10.4825 -10.4495 -10.3105 -10.569 -10.2725
+-10.3015 -10.2365 -10.0125 -9.964500000000001 -9.9795 -10.0525
+-9.922000000000001 -9.931999999999999 -9.9115 -9.911 -9.9125 -9.838000000000001
+-9.722999999999999 -9.6815 -9.720500000000001 -9.788499999999999 -9.8325 -9.852
+-9.936999999999999 -9.956499999999998 -10.147 -10.1625 -10.0225 -10.2685 -10.279
+-10.3465 -10.333 -10.257 -10.414 -10.378 -10.351 -10.2065 -10.2875 -10.3435
+-10.2325 -10.3545 -10.1775 -10.348 -10.43 -10.285 -10.4645 -10.2355 -10.318
+-10.2025 -10.2105 -10.2585 -10.009 -9.9635 -9.8535 -10.0815 -10.0585 -9.837
+-9.837 -9.774999999999999 -10.014 -10.0595 -9.9305 -9.899000000000001
+-9.860499999999998 -10.043 -10.241 -10.216 -10.2205 -10.216 -10.3795 -10.675
+-10.5 -10.7445 -10.46 -10.58 -10.6035 -10.5415 -10.8425 -10.359 -10.55 -10.4125
+-10.7665 -10.856 -10.5935 -11.018 -10.6445 -11.32 -11.0015 -10.9855 -11.2035
+-10.706 -11.15 -10.672 -11.107 -10.889 -10.5665 -10.7365 -10.407 -10.793
+-10.4755 -10.555 -10.477 -10.44 -10.679 -10.5125 -10.742 -10.5895 -10.595
+-10.653 -10.805 -10.7515 -10.831 -10.7435 -10.856 -11.01 -10.8875 -11.4025
+-11.098 -11.4345 -11.449 -11.747 -12.225 -11.8405 -12.5055 -12.1315 -12.7425
+-12.788 -12.427 -12.898 -12.3255 -12.846 -12.335 -12.5425 -12.698 -12.07 -12.497
+-12.0575 -12.522 -12.4665 -12.0905 -12.53 -12.077 -12.5795 -12.2895 -12.015
+-12.066 -11.898 -12.0755 -11.9135 -11.93 -11.9205 -11.841 -11.9825 -11.999
+-11.8615 -12.037 -11.919 -12.143 -12.2885 -12.3995 -12.768 -12.6685 ]))
+(initValue Real
+(data  0))))
+(device 34 CONTEXT
+(properties
+(name "extend bin Short Open calculation")
+(variableScope cont)
+(trigMode deg)
+(nextID 48)
+(popupTitleText "UserObject")
+(popupMoveable 1))
+(deviceList
+(device 4 IODEVICE
+(properties
+(name "hp8757D_bench_21_LOvswr")
+(variableScope cont)
+(transactions 7 "WRITE TEXT \"FD0\" EOL" "WRITE TEXT \"OPDS\" EOL"
+"READ TEXT x REAL64" "WRITE TEXT \"OPOD\" EOL" "READ TEXT y REAL64"
+"WRITE TEXT \"OD\" EOL" "READ TEXT z REAL64 ARRAY:201"))
+(interface
+(output 1
+(name "X")
+(optional yes))
+(output 2
+(name "y")
+(optional yes))
+(output 3
+(name "z")
+(optional yes)))
+(implementation
+(ioDevType 13)
+(iopath "SAP_Reg_1")
+(state 300 #H
+21FF0032003200320032001700644E204E204E204E2013884E2007D027104E204E204E204E202710
+02BC271027100000008100000081000000810000008187FFFC05000000819FFFFD04000000810000
+0081000000810000008100000081400000016000020240000001400000015F5E101A5F5E101A5F5E
+101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E
+101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A000000810000008100000081000000810000
+0081000000000000008100000000040404040303030300FF00FF000100FF00010001020200000000
+00000100010105010801000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000
+)))
+(device 30 START25
+(properties
+(variableScope cont)))
+(device 33 TEXTDISPLAY
+(properties
+(variableScope cont))
+(interface
+(input 1
+(name "Data"))))
+(device 34 TEXTDISPLAY
+(properties
+(variableScope cont))
+(interface
+(input 1
+(name "Data"))))
+(device 36 CONSTANT
+(properties
+(name "Real64 Array")
+(variableScope cont)
+(enableEditing 1))
+(interface
+(input 1
+(type control)
+(name "Default Value")
+(requires
+(datatype Real64))
+(lock name constraints)
+(optional yes))
+(output 1
+(name "Real64")
+(lock name constraints)))
+(implementation
+(value Real
+(numDims 1)
+(size 201)
+(data  [ -11.378 -11.304 -11.147 -11.359 -11.219 -11.581 -11.331 -11.265 -11.268
+-11.136 -11.348 -11.331 -11.161 -11.293 -11.26 -11.331 -11.49 -11.208 -11.301
+-11.205 -11.337 -11.449 -11.076 -11.224 -10.875 -10.93 -10.859 -10.573 -10.664
+-10.279 -10.252 -10.054 -10.164 -10.068 -9.892 -9.859 -9.776999999999999 -10.021
+-9.864000000000001 -10.018 -9.996 -9.977 -10.329 -10.024 -10.213 -10.23 -10.048
+-10.076 -10.136 -10.34 -10.263 -10.337 -10.458 -10.449 -10.584 -10.658 -10.532
+-10.565 -10.653 -10.757 -10.787 -10.735 -10.754 -10.636 -10.658 -10.57 -10.205
+-10.213 -10.048 -9.888999999999999 -9.689 -9.436 -9.408 -9.244 -9.115
+-8.925000000000001 -8.994 -9.029 -9.007 -9.212999999999999 -9.161 -9.51
+-9.715999999999999 -9.752000000000001 -10.161 -10.073 -10.367 -10.403 -10.562
+-10.804 -10.664 -10.782 -10.754 -11.065 -11.213 -11.01 -11.092 -11.106 -11.287
+-11.419 -11.268 -11.117 -11.04 -11.032 -11.128 -10.963 -10.691 -10.559 -10.414
+-10.537 -10.12 -10.026 -9.595000000000001 -9.43 -9.301 -9.115 -9.212999999999999
+-8.733000000000001 -8.895 -8.795999999999999 -9.289999999999999
+-9.449999999999999 -9.411 -10.051 -9.867000000000001 -10.875 -10.724 -10.982
+-11.504 -11.166 -11.911 -11.57 -12.177 -12.177 -11.875 -12.172 -11.861 -12.221
+-11.955 -11.886 -11.754 -11.584 -11.606 -11.361 -11.298 -10.892 -10.713 -10.433
+-10.37 -10.026 -9.776999999999999 -9.496 -9.307 -9.315 -9.073 -9.411 -9.161
+-9.549 -9.68 -10.23 -10.881 -10.823 -11.809 -11.724 -12.732 -13.067 -13.029
+-13.85 -13.512 -14.339 -13.998 -14.355 -14.679 -14.026 -14.484 -14.006 -14.245
+-14.141 -13.526 -13.74 -13.127 -13.276 -12.801 -12.292 -12.032 -11.663 -11.526
+-11.155 -10.952 -10.628 -10.427 -10.307 -10.153 -9.988 -10.005 -9.914 -10.183
+-10.389 -10.719 -11.23 -11.378 ]))
+(initValue Real
+(data  0))))
+(device 37 LITERALCONSTANT
+(properties
+(name "Text Array")
+(variableScope cont)
+(enableEditing 1))
+(interface
+(input 1
+(type control)
+(name "Default Value")
+(requires
+(datatype Text))
+(lock name constraints)
+(optional yes))
+(output 1
+(name "Text")
+(lock name constraints)))
+(implementation
+(value Text
+(numDims 1)
+(size 201)
+(data  [ "-11.378" "-11.304" "-11.147" "-11.359" "-11.219" "-11.581" "-11.331"
+"-11.265" "-11.268" "-11.136" "-11.348" "-11.331" "-11.161" "-11.293" "-11.26"
+"-11.331" "-11.49" "-11.208" "-11.301" "-11.205" "-11.337" "-11.449" "-11.076"
+"-11.224" "-10.875" "-10.93" "-10.859" "-10.573" "-10.664" "-10.279" "-10.252"
+"-10.054" "-10.164" "-10.068" "-9.892" "-9.859" "-9.776999999999999" "-10.021"
+"-9.864000000000001" "-10.018" "-9.996" "-9.977" "-10.329" "-10.024" "-10.213"
+"-10.23" "-10.048" "-10.076" "-10.136" "-10.34" "-10.263" "-10.337" "-10.458"
+"-10.449" "-10.584" "-10.658" "-10.532" "-10.565" "-10.653" "-10.757" "-10.787"
+"-10.735" "-10.754" "-10.636" "-10.658" "-10.57" "-10.205" "-10.213" "-10.048"
+"-9.888999999999999" "-9.689" "-9.436" "-9.408" "-9.244" "-9.115"
+"-8.925000000000001" "-8.994" "-9.029" "-9.007" "-9.212999999999999" "-9.161"
+"-9.51" "-9.715999999999999" "-9.752000000000001" "-10.161" "-10.073" "-10.367"
+"-10.403" "-10.562" "-10.804" "-10.664" "-10.782" "-10.754" "-11.065" "-11.213"
+"-11.01" "-11.092" "-11.106" "-11.287" "-11.419" "-11.268" "-11.117" "-11.04"
+"-11.032" "-11.128" "-10.963" "-10.691" "-10.559" "-10.414" "-10.537" "-10.12"
+"-10.026" "-9.595000000000001" "-9.43" "-9.301" "-9.115" "-9.212999999999999"
+"-8.733000000000001" "-8.895" "-8.795999999999999" "-9.289999999999999"
+"-9.449999999999999" "-9.411" "-10.051" "-9.867000000000001" "-10.875" "-10.724"
+"-10.982" "-11.504" "-11.166" "-11.911" "-11.57" "-12.177" "-12.177" "-11.875"
+"-12.172" "-11.861" "-12.221" "-11.955" "-11.886" "-11.754" "-11.584" "-11.606"
+"-11.361" "-11.298" "-10.892" "-10.713" "-10.433" "-10.37" "-10.026"
+"-9.776999999999999" "-9.496" "-9.307" "-9.315" "-9.073" "-9.411" "-9.161"
+"-9.549" "-9.68" "-10.23" "-10.881" "-10.823" "-11.809" "-11.724" "-12.732"
+"-13.067" "-13.029" "-13.85" "-13.512" "-14.339" "-13.998" "-14.355" "-14.679"
+"-14.026" "-14.484" "-14.006" "-14.245" "-14.141" "-13.526" "-13.74" "-13.127"
+"-13.276" "-12.801" "-12.292" "-12.032" "-11.663" "-11.526" "-11.155" "-10.952"
+"-10.628" "-10.427" "-10.307" "-10.153" "-9.988" "-10.005" "-9.914" "-10.183"
+"-10.389" "-10.719" "-11.23" "-11.378" ]))
+(initValue Text
+(data  ""))))
+(device 38 FORMULA
+(properties
+(variableScope cont)
+(expr 3 "A-(B+.1)" "" ""))
+(interface
+(input 1
+(name "A")
+(optional yes))
+(input 2
+(name "B")
+(optional yes))
+(output 1
+(name "Result")
+(tag "Result")
+(lock name constraints)
+(optional yes))))
+(device 47 CONSTANT
+(properties
+(name "Real64 Array")
+(variableScope cont)
+(enableEditing 1))
+(interface
+(input 1
+(type control)
+(name "Default Value")
+(requires
+(datatype Real64))
+(lock name constraints)
+(optional yes))
+(output 1
+(name "Real64")
+(lock name constraints)))
+(implementation
+(value Real
+(numDims 1)
+(size 201)
+(data  [ -11.378 -11.301 -11.147 -11.359 -11.219 -11.578 -11.331 -11.265 -11.268
+-11.139 -11.348 -11.328 -11.161 -11.287 -11.257 -11.331 -11.49 -11.208 -11.301
+-11.199 -11.331 -11.449 -11.073 -11.23 -10.878 -10.93 -10.859 -10.576 -10.658
+-10.282 -10.252 -10.054 -10.164 -10.073 -9.892 -9.859 -9.779 -10.021 -9.859
+-10.018 -9.996 -9.977 -10.329 -10.024 -10.213 -10.23 -10.046 -10.076 -10.139
+-10.345 -10.257 -10.334 -10.458 -10.449 -10.584 -10.658 -10.532 -10.565 -10.653
+-10.754 -10.787 -10.738 -10.754 -10.636 -10.664 -10.57 -10.202 -10.213 -10.051
+-9.888999999999999 -9.689 -9.436 -9.408 -9.241 -9.109 -8.925000000000001 -8.991
+-9.029 -9.005000000000001 -9.212999999999999 -9.161 -9.513 -9.715999999999999
+-9.752000000000001 -10.158 -10.076 -10.367 -10.4 -10.562 -10.804 -10.664 -10.779
+-10.757 -11.059 -11.21 -11.015 -11.092 -11.106 -11.287 -11.419 -11.268 -11.117
+-11.04 -11.032 -11.128 -10.958 -10.691 -10.559 -10.414 -10.532 -10.12 -10.029
+-9.598000000000001 -9.433 -9.299 -9.117000000000001 -9.208 -8.733000000000001
+-8.895 -8.799 -9.292999999999999 -9.446999999999999 -9.411 -10.051
+-9.864000000000001 -10.875 -10.719 -10.985 -11.504 -11.166 -11.911 -11.573
+-12.177 -12.172 -11.875 -12.172 -11.861 -12.221 -11.957 -11.886 -11.76 -11.584
+-11.6 -11.361 -11.298 -10.894 -10.713 -10.433 -10.373 -10.029 -9.776999999999999
+-9.494 -9.301 -9.310000000000001 -9.071 -9.411 -9.161 -9.551 -9.683 -10.23
+-10.875 -10.823 -11.809 -11.721 -12.735 -13.062 -13.029 -13.85 -13.515 -14.333
+-13.998 -14.355 -14.685 -14.028 -14.482 -14.004 -14.245 -14.138 -13.528 -13.74
+-13.125 -13.281 -12.801 -12.295 -12.034 -11.663 -11.521 -11.155 -10.958 -10.631
+-10.425 -10.312 -10.156 -9.988 -10.007 -9.914 -10.18 -10.381 -10.719 -11.23
+-11.375 ]))
+(initValue Real
+(data  0))))
+(configuration
+(connect D1:0 D0:0)
+(connect D0:1 D2:1)
+(connect D0:2 D3:1)
+(connect D0:3 D4:1)
+(connect D0:3 D5:1)
+(connect D0:0 D6:0)
+(connect D7:1 D6:1)
+(connect D4:1 D6:2)
+(connect D5:1 D7:1)))
+(contextCarrier
+(active detail)
+(detail
+(extent 1164 597)
+(anchorPt -15 -66)
+(configuration
+(devCarrierFor 4
+(active open)
+(icon
+(extent 177 51)
+(iconImage "io.icn"))
+(open
+(extent 254 216))
+(terminals on)
+(pinCenter 220 410))
+(devCarrierFor 30
+(active open)
+(icon)
+(open
+(extent 47 22))
+(title off)
+(pinCenter 220 210))
+(devCarrierFor 33
+(active open)
+(icon)
+(open
+(extent 121 22))
+(pinCenter 520 340))
+(devCarrierFor 34
+(active open)
+(icon)
+(open
+(extent 121 22))
+(pinCenter 520 410))
+(devCarrierFor 36
+(active open)
+(icon)
+(open
+(extent 117 74)
+(showFormat real))
+(pinCenter 660 150))
+(devCarrierFor 37
+(active open)
+(icon)
+(open
+(extent 237 74))
+(pinCenter 130 130))
+(devCarrierFor 38
+(active open)
+(icon)
+(open
+(extent 145 80))
+(terminals on)
+(pinCenter 810 390))
+(devCarrierFor 47
+(active open)
+(icon)
+(open
+(extent 117 74)
+(showFormat real))
+(pinCenter 410 150))
+(connect D1:0 D0:0
+(points 2 220 223 220 281))
+(connect D0:1 D2:1
+(points 2 379 340 457 340))
+(connect D0:2 D3:1
+(points 2 379 410 457 410))
+(connect D0:3 D4:1
+(points 6 379 480 400 480 400 250 520 250 520 150 599 150))
+(connect D0:3 D5:1
+(points 6 379 480 400 480 400 240 -10 240 -10 130 9 130))
+(connect D0:0 D6:0
+(points 6 220 520 220 540 610 540 610 310 820 310 820 329))
+(connect D7:1 D6:1
+(points 6 471 150 490 150 490 210 600 210 600 370 705 370))
+(connect D4:1 D6:2
+(points 6 721 150 740 150 740 210 690 210 690 410 705 410))
+(connect D5:1 D7:1
+(points 4 251 130 270 130 270 150 349 150)))
+(stackingOrder 1 0 3 2 4 5 7 6))))
+(device 36 CONTEXT
+(properties
+(name "clrlocl")
+(variableScope cont)
+(trigMode deg)
+(nextID 2)
+(popupTitleText "UserObject")
+(popupMoveable 1))
+(deviceList
+(device 0 IODEVICE
+(properties
+(name "hp8757D_bench_21_LOvswr")
+(variableScope cont)
+(transactions 3 "EXECUTE LOCAL" "EXECUTE CLEAR" "EXECUTE LOCAL"))
+(implementation
+(ioDevType 13)
+(iopath "SAP_Reg_1")
+(state 300 #H
+21FF0032003200320032001700644E204E204E204E2013884E2007D027104E204E204E204E202710
+02BC271027100000008100000081000000810000008187FFFC05000000819FFFFD04000000810000
+0081000000810000008100000081400000016000020240000001400000015F5E101A5F5E101A5F5E
+101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E
+101A5F5E101A5F5E101A5F5E101A5F5E101A5F5E101A000000810000008100000081000000810000
+0081000000000000008100000000040404040303030300FF00FF000100FF00010001020200000000
+00000100010105010801000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000
+)))
+(device 1 START25
+(properties
+(variableScope cont)))
+(configuration
+(connect D1:0 D0:0)))
+(contextCarrier
+(wndOrigin 1008 92)
+(wndState res)
+(active detail)
+(detail
+(extent 451 232)
+(anchorPt -44 21)
+(configuration
+(devCarrierFor 0
+(active open)
+(icon
+(extent 177 51)
+(iconImage "io.icn"))
+(open
+(extent 254 86))
+(terminals on)
+(pinCenter 220 120))
+(devCarrierFor 1
+(active open)
+(icon)
+(open
+(extent 47 22))
+(title off)
+(pinCenter 230 20))
+(connect D1:0 D0:0
+(points 4 230 33 230 40 220 40 220 56)))
+(stackingOrder 0 1))))
+(device 37 START25
+(properties
+(variableScope cont)))
+(configuration
+(connect D0:1 D2:1)
+(connect D2:1 D3:1)
+(connect D5:1 D6:1)
+(connect D12:0 D7:0)
+(connect D7:1 D8:1)
+(connect D7:2 D9:1))
+(ShowOnExecPanel))
+(contextCarrier
+(wndOrigin 2 5)
+(wndState res)
+(active detail)
+(panel
+(extent 492 348)
+(drawGrid "on"))
+(detail
+(extent 1492 678)
+(anchorPt -324 -343)
+(configuration
+(devCarrierFor 21
+(active icon)
+(icon
+(extent 172 15))
+(terminals on)
+(pinCenter 590 520))
+(devCarrierFor 23
+(active open)
+(icon
+(extent 177 0)
+(iconImage "io.icn"))
+(open
+(extent 221 74))
+(terminals on)
+(pinCenter 1200 780))
+(devCarrierFor 25
+(active open)
+(icon)
+(open
+(extent 124 316)
+(showFormat real))
+(pinCenter 940 690))
+(devCarrierFor 26
+(active open)
+(icon
+(extent 158 0)
+(iconImage "io.icn"))
+(open
+(extent 224 106))
+(terminals on)
+(pinCenter 1200 650))
+(devCarrierFor 27
+(active open)
+(icon)
+(open
+(extent 117 74)
+(showFormat real))
+(pinCenter 940 430))
+(devCarrierFor 28
+(active icon)
+(icon
+(extent 185 15))
+(terminals on)
+(pinCenter 1540 500))
+(devCarrierFor 30
+(active open)
+(icon)
+(open
+(extent 124 456)
+(showFormat real))
+(pinCenter 1730 710))
+(devCarrierFor 31
+(active icon)
+(icon
+(extent 253 25))
+(terminals on)
+(pinCenter 510 750))
+(devCarrierFor 32
+(active open)
+(icon)
+(open
+(extent 144 156)
+(showFormat real))
+(pinCenter 800 890))
+(devCarrierFor 33
+(active open)
+(icon)
+(open
+(extent 144 156)
+(showFormat real))
+(pinCenter 630 890))
+(devCarrierFor 34
+(active icon)
+(icon
+(extent 201 15))
+(terminals on)
+(pinCenter 1310 890))
+(devCarrierFor 36
+(active icon)
+(icon
+(extent 36 15))
+(terminals on)
+(pinCenter 1230 460))
+(devCarrierFor 37
+(active open)
+(icon)
+(open
+(extent 47 22))
+(title off)
+(pinCenter 460 650))
+(connect D0:1 D2:1
+(points 4 678 520 700 520 700 690 875 690))
+(connect D2:1 D3:1
+(points 4 1004 690 1020 690 1020 650 1055 650))
+(connect D5:1 D6:1
+(points 4 1635 500 1650 500 1650 710 1665 710))
+(connect D12:0 D7:0
+(points 4 460 663 460 680 510 680 510 735))
+(connect D7:1 D8:1
+(points 4 639 740 720 740 720 890 725 890))
+(connect D7:2 D9:1
+(points 6 639 760 650 760 650 780 540 780 540 890 555 890)))
+(stackingOrder 3 1 4 2 6 8 9 11 5 12 0 10 7))
+(numberFormats
+(realFormat standard)
+(realSigDigits 4)
+(realRadixSpec 4)
+(integerBase decimal))))
